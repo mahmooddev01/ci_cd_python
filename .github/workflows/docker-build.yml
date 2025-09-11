@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: mahmooddev/ci_cd_python:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/ci_cd_python:latest
