@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'jenkins',
                     url: 'https://github.com/mahmooddev01/ci_cd_python',
                     credentialsId: 'github-credentials'
             }
